@@ -2,7 +2,7 @@
 import java.util.Timer;
 
 public class d3seconds_count extends Thread {
-	  private volatile String msg = "¹CÀ¸¶}©l";
+	  private volatile String msg = "éŠæˆ²é–‹å§‹";
 //	  private volatile int a = (int) (Math.random()*10*(int)Math.pow(10, getdi())+1);
 //	  private volatile int b = (int) (Math.random()*10*(int)Math.pow(10, getdi())+1);
 	  private volatile int c = 1;
@@ -41,8 +41,8 @@ public class d3seconds_count extends Thread {
 	      try{ sleep(3000);
 	      		d=d+1;
 	      		if(d==5){
-	      			setdi(getdi());//¨C15¬í®É¶¡Ãg»@
-	      			System.out.println("®É¶¡Ãg»@");
+	      			setdi(getdi());//æ¯15ç§’æ™‚é–“æ‡²ç½°
+	      			System.out.println("æ™‚é–“æ‡²ç½°");
 	      			d=0;
 	      			}
 	      		int a = (int) (Math.random()*10*(int)Math.pow(10, getdi())+1);
@@ -72,7 +72,7 @@ public class d3seconds_count extends Thread {
 //	        app.setMsg(latest);
 	        lateset = input.nextInt();
 	      }
-
+		System.out.println("æ­å–œä½ éé—œäº†")
 	      System.exit(0);
 	    } 
 
